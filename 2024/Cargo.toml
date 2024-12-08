@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+itertools = "0.13.0"
 regex = "*"
 
 [[bin]]
@@ -33,3 +34,7 @@ path = "src/day06/main.rs"
 [[bin]]
 name = "day07"
 path = "src/day07/main.rs"
+
+[[bin]]
+name = "day08"
+path = "src/day08/main.rs"
